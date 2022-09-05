@@ -7,9 +7,9 @@ I have tested simple GET, POST requests but not requests containing buffer, bina
 # Installation
 
 ```shell
-yarn add ismailkarsli/axios-tauri-adapter
+yarn add @ismailkarsli/axios-tauri-adapter
 # or
-npm install ismailkarsli/axios-tauri-adapter
+npm install @ismailkarsli/axios-tauri-adapter
 ```
 
 # Usage
