@@ -4,6 +4,14 @@ An adapter to use the Tauri HTTP api with Axios on the UI side.
 
 I have tested simple GET, POST requests but not requests containing buffer, binary.
 
+# Installation
+
+```shell
+yarn add ismailkarsli/axios-tauri-adapter
+# or
+npm install ismailkarsli/axios-tauri-adapter
+```
+
 # Usage
 
 ```js
