@@ -4,7 +4,7 @@
   "description": "Axios Tauri Adapter",
   "main": "dist/index.js",
   "repository": "https://github.com/ismailkarsli/axios-tauri-adapter",
-  "author": "Ismail Karsli <cszn@protonmail.com>",
+  "author": "Ismail Karsli <cszn@protonmail.ch>",
   "license": "MIT",
   "scripts": {
     "build": "tsc"
