@@ -13,7 +13,23 @@ npm install @ismailkarsli/axios-tauri-adapter
 ```
 
 # Usage
+## Tauri permissions
+```jsonc
+// src-tauri/tauri.conf.json
+{
+  "tauri": {
+    "allowlist": {
+      "http": {
+        "all": true,
+        "request": true,
+        "scope": ["http://example.com/*"]
+      }
+    }
+  }
+}
+```
 
+## JavaScript
 ```js
 import axios from "axios";
 import axiosTauriAdapter from "@ismailkarsli/axios-tauri-adapter";
